@@ -1,9 +1,10 @@
- for(var i=2;i<10;i++)
-   document.write("["+i+"단]"+"\t");
-   document.write("<br>");
+ 	var i,j;
+for (i=2;i<10;i++) {
+	console.log(i+'단');
+}
 
- for(var i =1; i<10; i++){
-    for(var j=2;j<10;j++)
-   	    document.write(j + "X" +i+"="+((j*i)+"\t"));
-   	    document.write("<br>");
+ for(i =2; i<10; i++){
+    for(j=1;j<10;j++)
+   	   console.log(i + "X" +j+"="+((j*i)+"\t"));
  	}
+ 
